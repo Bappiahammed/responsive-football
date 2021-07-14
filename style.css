@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  
 }
 .banner-detalls {
   margin-left: 156px;
@@ -167,5 +168,44 @@ article{
   
 }
  
+/* Media Queries */
+/* Mobile devices  */
+@media only screen and (max-width:688px){
+  .banner-continer {
+    background-color: #42a025;
+    grid-template-columns:1fr;
+    
+    
+  }
+  .banner-detalls {
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom:169px;
+    align-items: center;
+    width: 50%;
+  }
+  .blog-container{
+    width: 1050px;
+    height: auto ;
+    
+    
+  }
+  .blogs{
+    display:flex;
+    
+   
+  }
+  .pic{
+    position: relative;
+    height: 210px;
+  }
 
+  .pic img{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:  0px 0px 40px rgba(83, 175, 91, 0.85);
+  }
+  
+}
 
