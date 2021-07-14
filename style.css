@@ -88,6 +88,18 @@ article{
 .blog h1{
   font-size:28px;
 }
+/* extra section 1  */
+.teams-tittle{
+  font-size: 60px;
+  text-align: center;
+  color: tomato;
+}
+.treams{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 /* footer style  */
 .footer-img img{
   width: 483px;
