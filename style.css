@@ -71,6 +71,7 @@ article{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 30px;
+  margin-top: 70px;
   
 }
 .blog{
@@ -88,21 +89,36 @@ article{
   font-size:28px;
 }
 /* footer style  */
-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
- .footer-container{
-  .blog-container{
-    width: 1050px;
-    height: auto ;
-    
-  
-} */
-.footer-img img{ 
-  width: 483.87px;
+.footer-img img{
+  width: 483px;
   height: 110px;
-
 }
+.footer-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 158px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon{
+  margin-left: 15px;
+  height: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 63px;
+  
+}
+ 
+
 
